@@ -1,0 +1,626 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5rem;
+}
+.container{
+    background-size: cover;
+    padding-bottom: 3rem;
+    background-image: linear-gradient(rgba(4, 6, 7, 0.445),rgba(3, 11, 19, 0.377)), url(images/1.png);
+}
+
+
+.nav-bar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4.5rem 2rem 4.5rem;
+   
+}
+
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+}
+.nav-menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu ul li a:hover{
+   background-color: #022995;
+   padding: .6rem; 
+   border-radius: 5px;
+   transition: none;
+}
+
+.nav-menu ul li{
+    padding: .9rem;
+}
+
+
+.services ul{
+    display: block;
+    position: absolute;
+    background-color: #022950;
+    margin-top: 1rem;
+    border-radius: 5px;
+
+}
+
+.services ul li{
+    display: none;
+}
+
+.service:hover .services ul li{
+    display: block;
+}
+
+.header{
+    padding: 4.5rem;
+    color: white;
+}
+
+.header h1{
+    font-size: 40px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.header p{
+    padding-bottom: 1rem;
+}
+
+.button{
+    display: flex;
+    padding: 1rem;
+    gap: 4rem;
+    
+}
+
+.btn1{
+    background-color: #1264D2;
+    padding: .6rem 1rem .6rem 1rem;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+  
+}
+.btn2{
+    padding: .6rem 1rem .6rem .6rem;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #1264D2;
+  
+}
+
+.btn1:hover{
+    background-color: white;
+    color: #1264D2;
+    transition: .3s ease-in-out;
+}
+
+.btn2:hover{
+    border: 2px solid white;
+    color: #1264D2;
+    transition: .3s ease-in-out;
+}
+
+.title{
+    background: linear-gradient(180deg, #003255 -1.32%, #050E26 9.39%),
+    radial-gradient(54.92% 3.02% at 47.85% 3.02%, rgba(1, 242, 244, 0.18184) 0%, rgba(1, 242, 244, 0) 100%);
+    
+}
+
+.title h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 2rem;
+    color: white;
+}
+
+.main-service{
+    padding: 2rem 4.5rem 3rem 4.5rem;
+    color: white;
+    background-image: url(images/2.png);
+    background-size: cover;
+}
+.service1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service1 h1{
+      padding-bottom: 1rem;
+}
+.service1 p{
+      padding-bottom: 1rem;
+}
+
+.button{
+    grid-column: 2/3;
+    
+}
+
+.image-10{
+    grid-column: 2/3;
+    margin-top: -7rem;
+}
+
+.image-10 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-top: 3rem;
+
+}
+
+
+.main-service2{
+    background-image: url(images/3.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-2{
+    padding-top: -3rem;
+    
+}
+
+.image-2 img{
+    max-width: 100%;
+    height: auto;
+}
+.image-3 img{
+    max-width: 100%;
+    height: auto;
+}
+.image-4 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-1{
+    margin-top: 9rem;
+    padding-right: 3rem;
+    color: white;
+}
+
+.content-1 h1{
+    padding-bottom: 1rem;
+    
+}
+.content-1 p{
+    padding-bottom: 1rem;
+
+}
+
+.main-service-3{
+    background-image: url(images/4.png);
+    background-size: cover;
+    color: white;
+    padding: 4.5rem 4.5rem 3rem 4.5rem;
+}
+
+.main-service-3 h1{
+    padding-bottom: 1rem;
+}
+.main-service-3 p{
+    padding-bottom: 1rem;
+}
+
+.main-service-4{
+    background-image: url(images/5.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+  
+}
+
+.content-2{
+    padding-top: 9rem;
+    color: white;
+}
+
+.content-2 h1{
+     padding-bottom: 1rem;
+}
+.content-2 p{
+     padding-bottom: 1rem;
+}
+
+.image-3{
+    padding: 3rem 3.5rem 1rem 3.7rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.main-service-5{
+    background-image: url(images/6.png);
+    color: white;
+    padding: 3rem 4.5rem 2rem 4.5rem;
+    background-size: cover;
+
+}
+
+.main-service-5 h1{
+    padding-bottom: 1rem;
+    
+}
+.main-service-5 p{
+    padding-bottom: 1rem;
+
+}
+
+.main-service-6{
+    background-image: url(images/7.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: space-between;
+}
+
+.content-3{
+    color: white;
+    padding-top: 5rem;
+}
+.content-3 h1{
+    padding-bottom: 1rem;
+}
+.content-3 p{
+    padding-bottom: 1rem;
+}
+
+.image-4{
+    padding: 3rem 4.5rem 1rem 2rem;
+}
+
+.about{
+    background-image: url(images/8.png);
+    background-size: cover;
+}
+
+
+.about h1{
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      padding-top: 3rem;
+      padding-bottom: 1rem;
+}
+
+.part0{
+   display: flex;
+   align-items: center;
+   padding: 4rem 4.5rem 3rem 4.5rem;
+   color: white;
+   gap: 3rem;
+   justify-content: space-around;
+}
+
+.part1 img{
+    background-color: white;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    place-content: center;
+
+    
+}
+.part2 img{
+    background-color: white;
+    border-radius: 60%;
+    padding: 1rem;
+    
+}
+.part3 img{
+    background-color: white;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.part1{
+    text-align: center;
+}
+.part2{
+    text-align: center;
+}
+.part3{
+    text-align: center;
+}
+
+.part1 h2{
+    padding-bottom: 1rem;
+}
+.part2 h2{
+    padding-bottom: 1rem;
+}
+.part3 h2{
+    padding-bottom: 1rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    background-color:#04152C;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.contact1{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    background-color: #FFFFFF1F;
+    border-radius: 9px;
+}
+
+.contact1 h1{
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+.contact1 p{
+    padding-bottom: 2rem;
+}
+.contact2 h1{
+    padding-bottom: 1rem;
+}
+.contact2 p{
+    padding-bottom: 1rem;
+}
+
+.contact2{
+    color: white;
+   padding: 3rem;
+   text-align: center;
+   background-color: #FFFFFF1F;
+   border-radius: 9px;
+   
+}
+
+.form{
+    background-image: linear-gradient(rgba(75, 73, 71, 0.603),rgba(61, 59, 57, 0.575)), url(images/9.png);
+    background-size: cover;
+    justify-content: center;
+
+}
+
+.form h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 3rem 0 1rem 0;
+    color: white;
+    letter-spacing: .3rem;
+}
+
+.form p{
+    text-align: center;
+    color: white;
+    letter-spacing: .1rem;
+
+}
+
+.form0{
+    display: flex;
+    padding: 2rem 4.5rem 3rem 4.5rem;
+    justify-content: center;
+    gap: 5rem;
+   
+}
+
+.form1 label{
+    color: white;
+    font-size: 13px;
+}
+
+.form1 input{
+    padding: .3rem 7rem .3rem .5rem;
+    margin: .5rem 0rem .5rem 0rem;
+    border: none;
+    border-radius: 6px;
+    
+}
+.form2 label{
+    color: white;
+    font-size: 13px;
+}
+
+.form2 input{
+    padding: .2rem 7rem .2rem .5rem;
+    margin: .5rem 0rem .5rem 0rem;
+    border: none;
+    border-radius: 6px;
+    
+}
+#text{
+    padding: .5rem 7rem 3rem .6rem;
+}
+
+#text .placeholder{
+     text-align: left;
+}
+
+.btn3{
+    display: flex;
+    border: 2px solid #1264D2;
+    border-radius: 25px;
+    padding: .6rem 1rem .6rem 1rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem 37rem 0rem 37rem;
+    color: white;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    .contact{
+          display: block;
+          gap: 2rem;
+          justify-content: space-around;
+    }
+
+    .header{
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    .header h1{
+       
+        line-height: 2.5rem;
+    }
+
+    .title h1{
+        line-height: 2.5rem;
+    }
+
+    .contact1{
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .contact2{
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .form0{
+        display: block;
+    }
+
+    .btn3{
+        display: block;
+
+    }
+
+    .part0{
+        display: block;
+        padding: 0rem 2rem 0rem 2rem;
+
+    }
+
+    .part1 p{
+        padding-bottom: 1.5rem;
+    }
+    .part2 p{
+        padding-bottom: 1.5rem;
+    }
+    .part3 p{
+        padding-bottom: 1.5rem;
+    }
+
+    .main-service-6{
+        display: block;
+        padding: 0rem 2rem 0 2rem;
+        text-align: left;
+    }
+
+    .image-4{
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    
+    .main-service{
+        display: block;
+        padding: 0rem 2rem 0rem 2rem;
+        text-align: left;
+    }
+    .main-service2{
+        display: block;
+        padding: 0rem 2rem 0rem 2rem;
+        text-align: left;
+    }
+    .main-service-3{
+        display: block;
+        padding: 0rem 2rem 0rem 2rem;
+        text-align: left;
+    }
+    .main-service-4{
+        display: block;
+        padding: 0rem 2rem 0rem 2rem;
+        text-align: left;
+    }
+    .main-service-5{
+        display: block;
+        padding: 0rem 2rem 0rem 2rem;
+        text-align: left;
+    }
+
+
+    .service1{
+        display: block;
+    }
+    .content-1{
+        display: block;
+    }
+    .content-2{
+        display: block;
+    }
+
+    .image-1{
+        display: flex;
+        width: 50%;
+    }
+
+    .button{
+        gap: 2.5rem;
+        padding: 0rem 1rem 0rem 1rem;
+        display: flex;
+    }
+
+   
+   
+  }
+
+
+
+  /*about us css code properties starts here*/
+
+  .about-us{
+    background-image: url(about/1.png);
+    padding: 10rem 4.5rem 10rem 4.5rem;
+    background-size: cover;
+    color: white;
+  }
+
+  .about-us h1{
+    padding-bottom: 1rem;
+  }
+
+  .about-container{
+    background-image: url(about/2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 02rem 4.5rem;
+   
+  }
+
+  .about-us1 img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-us2{
+    color: white;
+  }
+
+  @media screen  and (max-width: 800px) {
+    
+    .about-container{
+         display: block;
+    }
+
+    .about-us{
+        padding: 7rem 2rem 2rem 2rem;
+    }
+  }
